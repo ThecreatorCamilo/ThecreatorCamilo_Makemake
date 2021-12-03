@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(../html/fondo_oscuro.jpg);
+}
+
+.seccion{
+    width: 700px;
+    background: #FFFBB0;
+    padding:35px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Bangers', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Merriweather', serif;
+    background-image: url(../html/fondo_claro.jpg);
+}
+
+#titulo{
+    font-family: 'Bangers', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Merriweather', serif; 
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+}
