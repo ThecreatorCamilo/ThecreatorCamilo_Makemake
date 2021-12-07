@@ -121,3 +121,10 @@
     width: 200px;
     height: 100px;
 }
+
+@media (max-width:350px){
+    #correo{
+        font-size:x-small;
+        font-size:17px;
+    }
+}

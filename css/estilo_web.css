@@ -17,25 +17,26 @@
     margin-right: 20px;
     text-align: right;
     font-family: 'Bree Serif', serif;
+    font-size: 40px;
 }
 
 header{
     margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: 10 px;
+    margin-bottom: 10px;
     margin-left: 10px;
     background-color: #75E6FF;
-    height: 260px;
+    height: 330px;
 }
 
 /*menu*/
 .menu{
-    font-size: 30px;
+    font-size: 25px;
 }
 .navegacion{
     margin:30px auto;
     background:#A4C7D6;
-    margin-top: 60px;
+    margin-top: 30px;
     font-weight: bolder;
     border-radius: 35px;
 }
@@ -58,6 +59,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     margin-right: 20px;
+    font-size: 25px;
 }
 
 .seccion{
@@ -65,7 +67,7 @@ header{
     margin-top:20px;
     margin-right: 10px;
     margin-left: 10px;
-    height: 850px;
+    height: 900px;
 }
 
 .m_premium{
@@ -91,7 +93,7 @@ form{
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
-    width: 1200px;
+    width: 95%;
     background: #A9FFAE;
 }
 
@@ -142,39 +144,456 @@ form input{
     height: 100px;
 }
 
-@media (max-width:1100px){
+@media (max-width:800px){
     .navegacion{
         flex-direction:column-reverse;
     }
     header{
-        height:530px;
-        width: 540px;
+        height:200px;
     }
     .seccion{
         background-color: #6BCB70;
         margin-top:20px;
         margin-right: 10px;
         margin-left: 10px;
-        height: 1400px;
-        width: 560px;
+        height: 600px;
     }
     form{
         margin-top: 10px;
         margin-right: 20px;
         margin-left: 20px;
         background: #A9FFAE;
-        width: 520px;
+        width: 95%;
     }
     form input{
-        margin-top:10px;
-        margin-right:10px;
-        margin-left:10px;
-        margin-bottom:10px;
-        padding:15px;
+        padding:5px;
         border-radius: 35px;
+        font-size: 11px;
+        flex-direction:column;
+    }
+    #limite{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bangers', cursive;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;    
+    }
+    .inicios{
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .navegacion{
+        margin:30px auto;
+        background:#A4C7D6;
+        margin-top: 20px;
+        font-weight: bolder;
+        border-radius: 35px;
+    }
+    #acerca_de_titulo{
+        margin-right: 20px;
+        font-family: 'Bree Serif', serif;
         font-size: 20px;
     }
-    .pie{
-        width: 560px;
+    #planeta{
+        height: 120px;
+        width: 150px;
+        float : left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
     }
+    #frase{
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin-right: 20px;
+        font-size:20px;
+    }
+}
+
+@media (max-width:700px){
+    .navegacion{
+        flex-direction:column-reverse;
+    }
+    header{
+        height:280px;
+    }
+    .seccion{
+        background-color: #6BCB70;
+        margin-top:20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 600px;
+    }
+    form{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        background: #A9FFAE;
+        width: 95%;
+    }
+    form input{
+        padding:5px;
+        border-radius: 35px;
+        font-size: 11px;
+        flex-direction:column;
+    }
+    #limite{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bangers', cursive;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;    
+    }
+    .inicios{
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .navegacion{
+        margin:30px auto;
+        background:#A4C7D6;
+        margin-top: 20px;
+        font-weight: bolder;
+        border-radius: 35px;
+    }
+    #acerca_de_titulo{
+        margin-right: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+    #planeta{
+        height: 120px;
+        width: 150px;
+        float : left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    #frase{
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin-right: 20px;
+        font-size:20px;
+    }
+}
+
+@media (max-width:550px){
+    .navegacion{
+        flex-direction:column-reverse;
+    }
+    header{
+        height:280px;
+    }
+    .seccion{
+        background-color: #6BCB70;
+        margin-top:20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 650px;
+    }
+    form{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        background: #A9FFAE;
+        width: 90%;
+    }
+    form input{
+        padding:5px;
+        border-radius: 35px;
+        font-size: 11px;
+        flex-direction:column;
+    }
+    #limite{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bangers', cursive;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;    
+    }
+    .inicios{
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .navegacion{
+        margin:30px auto;
+        background:#A4C7D6;
+        margin-top: 20px;
+        font-weight: bolder;
+        border-radius: 35px;
+    }
+    #acerca_de_titulo{
+        margin-right: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+    #planeta{
+        height: 120px;
+        width: 150px;
+        float : left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    #frase{
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin-right: 20px;
+        font-size:20px;
+    }
+}
+
+
+@media (max-width:450px){
+    .navegacion{
+        flex-direction:column-reverse;
+    }
+    header{
+        height: 400px;
+    }
+    .seccion{
+        background-color: #6BCB70;
+        margin-top:20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 840px;
+    }
+    form{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        background: #A9FFAE;
+        width: 90%;
+    }
+    form input{
+        padding:5px;
+        border-radius: 35px;
+        font-size: 11px;
+        flex-direction:column;
+    }
+    #limite{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bangers', cursive;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;    
+    }
+    .inicios{
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .navegacion{
+        margin:30px auto;
+        background:#A4C7D6;
+        margin-top: 15px;
+        font-weight: bolder;
+        border-radius: 35px;
+    }
+    #acerca_de_titulo{
+        margin-right: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+    #planeta{
+        height: 120px;
+        width: 150px;
+        float : left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    #frase{
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin-right: 20px;
+        font-size:20px;
+    }
+}
+
+@media (max-width:350px){
+    .navegacion{
+        flex-direction:column-reverse;
+    }
+    header{
+        height:550px;
+    }
+    .seccion{
+        background-color: #6BCB70;
+        margin-top:20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 900px;
+    }
+    form{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        background: #A9FFAE;
+        width: 90%;
+    }
+    form input{
+        padding:5px;
+        border-radius: 35px;
+        font-size: 11px;
+        flex-direction:column;
+    }
+    #limite{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bangers', cursive;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;    
+    }
+    .inicios{
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .navegacion{
+        margin:30px auto;
+        background:#A4C7D6;
+        margin-top: 15px;
+        font-weight: bolder;
+        border-radius: 35px;
+    }
+    #acerca_de_titulo{
+        margin-right: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+    #planeta{
+        height: 120px;
+        width: 150px;
+        float : left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    #frase{
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin-right: 20px;
+        font-size:20px;
+    }
+    #correo{
+        font-size:x-small;
+        font-size:21px;
+    }
+}
+
+@media (max-width:300px){
+    .navegacion{
+        flex-direction:column-reverse;
+    }
+    header{
+        height:520px;
+    }
+    .seccion{
+        background-color: #6BCB70;
+        margin-top:20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 1070px;
+    }
+    form{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        background: #A9FFAE;
+        width: 87%;
+    }
+    form input{
+        padding:5px;
+        border-radius: 35px;
+        font-size: 11px;
+        flex-direction:column;
+    }
+    #limite{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bangers', cursive;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;    
+    }
+    .inicios{
+        font-size: 15px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .navegacion{
+        margin:30px auto;
+        background:#A4C7D6;
+        margin-top: 15px;
+        font-weight: bolder;
+        border-radius: 35px;
+    }
+    #acerca_de_titulo{
+        margin-right: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+    #planeta{
+        height: 120px;
+        width: 150px;
+        float : left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    #frase{
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin-right: 20px;
+        font-size:20px;
+    }
+    #correo{
+        font-size:x-small;
+        font-size:17px;
+    }
+
 }

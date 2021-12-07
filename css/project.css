@@ -196,3 +196,31 @@ a:hover{
     font-weight: normal;
     font-size: 30px;
 }
+
+@media (max-width:350px){
+    header{
+        height:500px;
+    }
+    #correo{
+        font-size:x-small;
+        font-size:17px;
+    }
+    #uploader img{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media(max-width:300px){
+    header{
+        height:550px;
+    }
+    #correo{
+        font-size:x-small;
+        font-size:17px;
+    }
+    #uploader img{
+        height: 100px;
+        width: 100px;
+    }
+}
